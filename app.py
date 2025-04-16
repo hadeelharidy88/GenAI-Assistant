@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 # Setup Google Generative AI
-GOOGLE_API_KEY = st.secrets.get("GOOGLE_API_KEY", "AIzaSyATIUK_dvY0rg_FONGW1668--IwlMrFVyo")
+GOOGLE_API_KEY = st.secrets.get("GOOGLE_API_KEY", "xx")
 GOOGLE_PROJECT = st.secrets.get("GOOGLE_PROJECT", "analog-grin-455718-i4")
 GOOGLE_LOCATION = st.secrets.get("GOOGLE_LOCATION", "us-east1")
 
